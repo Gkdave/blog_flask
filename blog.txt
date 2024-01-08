@@ -1,0 +1,20 @@
+-create env
+-create app.py file
+-create routes of index,register,login 
+-main.html and extends in all folders
+-navbar in main
+-install sqlAlcamy
+-cofig database
+-create Model and register page
+-create login and cofig it 
+-create logout and user and postblog
+-create post blog page 
+-create Model for post blog 
+-def blog and blog.html create form 
+-retrive data from database to Home page 
+-create blog_detail page and retrive data from postblog 
+-create navbar and edit and delete button and config it
+-Create edit.html
+-Edit post
+-test edit and delete and new post
+-Create static file and config

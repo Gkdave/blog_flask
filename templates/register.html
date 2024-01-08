@@ -1,0 +1,52 @@
+
+{% extends 'main.html' %}
+
+{% block title %}
+
+Register 
+
+{% endblock title %} 
+
+    
+
+
+{% block body %}
+<h1 class="text-center">Register Page</h1>
+
+<form class="row g-3 my-3" method='POST' action='/register'  >
+    <div class="col-md-6">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+        
+    </div>
+    <div class="col-md-6">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password" name="password">
+        
+    </div> 
+    <div class="col-md-6">
+      <label for="validationCustom01" class="form-label">First name</label>
+      <input type="text" class="form-control" id="firstname" value="Gajendra" name="fname" required>
+      
+    </div>
+    <div class="col-md-6">
+      <label for="validationCustom02" class="form-label">Last name</label>
+      <input type="text" class="form-control" id="validationCustom02" value="Dave" name="lname" required>
+      
+    </div>
+    
+   
+    <div class="col-md-12">
+      <label for="uname" class="form-label">Username</label>
+      <input type="text" class="form-control" id="uname" name="uname" required>
+      
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary" type="submit">Submit form</button>
+    </div>
+  </form>
+
+
+
+{% endblock body %}
+    
